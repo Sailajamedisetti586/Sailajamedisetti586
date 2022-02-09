@@ -1,0 +1,12 @@
+#program to print biggest of two numbers
+a=int(input('enter a:')
+b=int(input('enter b:')
+if(a>b):
+ print('a is bigger than b')
+else:
+ print('b is bigger than a')
+ 
+Output:
+enter a:45
+enter b:23
+a is bigger than b
