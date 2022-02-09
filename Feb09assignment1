@@ -1,0 +1,13 @@
+
+Python program to check the number is even or odd
+
+number = int(input("Enter a number: "))
+Mod=number%2
+if (mod>0):
+   print('it is an odd number')
+else:
+   print('it is an even number')
+Output :
+
+Enter a number: 25
+it is an odd number
