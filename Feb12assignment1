@@ -1,0 +1,42 @@
+# A python program to print food bill
+fr=1000
+cr=800
+pr=900
+cr=400
+wr=300
+cname=input('enter customer name:')
+cphn=(input('enter phone no:')
+fcq=int(input('enter no of friedrice packets:'))
+ccq=int(input('enter no of curry packets:'))
+pcq=int(input('enter no of pickle packets:'))
+cucq=int(input('enter no of curd packets:'))
+wq=int(input('enter no of water bottles:'))
+bill=(fr*fcq)+(cr*ccq)+(pr*pcq)+(cr*cucq)+(wr*wq)
+if bill>5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    dis=bill*5/100
+    tax=bill*10/100
+elif bill>1000:
+    dis=bill*3/100
+    tax=bill*10/100
+else:
+    print('invalid ')
+    mainbill=bill-dis+tax
+print('bill amount:',mainbill)
+Output:
+enter customer name:Sailaja
+enter customer phonenumber:7890612356
+enter no of fried rice packets:1
+enter no of curry packets:1
+enter no of pickle packets:1
+enter no of curd packets:1
+enter no of water bottles:1
+bill amount:3468
+
+
+
