@@ -1,0 +1,13 @@
+
+# write  program to find the  total sum of the digits in number
+n=int(input('enter a:'))
+total=0
+while(n>0):
+    digit=n%10
+    total=total+digit
+    n=n//10
+print('The total sum of digits is:',total)
+Output:
+enter a:678
+The total sum of digits is:21
+
