@@ -1,0 +1,10 @@
+#python program for division
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+print(a//b)
+print(a/b/
+Output:
+enter a:6
+enter b:5
+1
+1.2
