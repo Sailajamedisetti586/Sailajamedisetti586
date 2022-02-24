@@ -1,0 +1,17 @@
+l= []
+n = int (input('enter the number :'))
+for i in range (n):
+   x = int (input())
+   l. append (x)
+l. reverse ()
+print(l)
+Output:
+enter number:4
+34
+67
+89
+23
+  23
+  89
+  67
+  34
