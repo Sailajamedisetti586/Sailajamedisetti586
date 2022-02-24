@@ -1,0 +1,25 @@
+
+l=[]
+n=int(input('enter the number'))
+for i in range(n):
+    e=int(input('enter the element: '))
+    l.append(e)
+min=l[0]
+max=l[0]
+for i in range(1,n):
+    if l[i]<min:
+        min=l[i]
+    if l[i]>max:
+        max=l[i]
+print('max is',max)
+print('min is',min)
+Output:
+enter the number:5
+enter the element:
+34
+56
+6
+57
+90
+max is:90
+min is:6
