@@ -1,0 +1,8 @@
+#program to merge two tuples
+t1=("ram","lakshman","sita")
+t2=("31","32","33")
+x=len(t1)
+y=len(t2)
+print(t1+t2)
+Output:
+('ram','lakshman','sita','31','32','33')
