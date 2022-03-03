@@ -1,0 +1,7 @@
+write a program to print 10 to 1 using list comprehension
+n=int(input())
+l=[i for i in range(10,0,-1)]
+print(l)
+Output:
+10
+[10,9,8,7,6,5,4,3,2,1]
