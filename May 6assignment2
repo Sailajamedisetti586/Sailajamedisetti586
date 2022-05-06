@@ -1,0 +1,15 @@
+e={101:['sai','manager',11-02-2009,20000],
+209:['anandi','salesman',12-06-2013,4500],
+3:['tejas','executive manager',12-08-2004,12000],
+4:['bharath,'supervisor',12-09-2009,27780]}
+x=int(input('enter the eno:'))
+print('name of the employee:',s[x][0])
+print('employee designation:',s[x][1])
+print ('employee doj:',s[x][2])
+print('employee sal:',s[x][3])
+Output:
+enter the eno:3
+name of the employee:tejas
+employee designation: executive manager
+employee doj:12-08-2004
+employee sal:12000
