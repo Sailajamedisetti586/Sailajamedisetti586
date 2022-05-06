@@ -1,0 +1,16 @@
+#student dictionary with sno,snake,gender,result
+s={1:['sai','f','mccs',450],
+2:['anand','m','mpcs',450],
+3:['tejaswini','f','bca',560],
+4:['bharathi','f','bba',780]}
+x=int(input('enter the sno:'))
+print('name of the student:',s[x][0])
+print('gender:',s[x][1])
+print ('group:',s[x][2])
+print('result:',s[x][3])
+Output:
+enter the sno:4
+name of the student:bharathi
+gender:f
+group:bba
+result:780
